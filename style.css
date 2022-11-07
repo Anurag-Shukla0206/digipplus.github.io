@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 60px;
+    width: 100%;
+    background: white;
+    box-shadow: 0 5px 10px orange;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: -50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+    height: 30px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+nav ul li a:hover, nav ul li a.active{
+    color: rgb(255, 25, 0); 
+}
+nav ul li:hover{
+    border-bottom: 2px solid rgb(245, 98, 13);
+}
+
+button{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: black;
+    color: azure;
+}
+span{
+    font-size: large;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#home{
+    padding: 100px 200px;
+    margin: 20px;
+}
+#home img{
+    position: relative;
+    left: 380px;
+}
+#home .welcome{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+}
+#home span{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 80%;
+    font-weight: bolder;
+}
+.announce{
+    height: 40px;
+    width: 100%;
+    background: rgba(7, 118, 238, 0.252);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.announce p1{
+    font-size: 15px;
+    color: rgba(7, 119, 238, 0.829);
+    letter-spacing: 1px;
+    position: relative;
+    top: 8px;
+    left: 25px;
+}
+
+.announce p{
+    color: rgb(255, 94, 0);
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 3px 10px orange;
+}
+.box p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    opacity: 0.8;
+}
+.box2{
+    height: 130px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 3px 10px orange;
+}
+.box2 p{
+    padding: 30px;
+}
+.box2 p3{
+    color: black;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#jobs{
+    position: relative;
+    top: 300px;
+    padding: 100px 200px;
+    margin: 30px;
+}
+#jobs p{
+    color: rgb(255, 94, 0);
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.job-box{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background: rgba(7, 118, 238, 0.252);
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: -20px;
+    font-size: 15px;
+}
+
+.job-box2{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background: rgba(20, 22, 24, 0.463);
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -20px;
+    font-size: 15px;
+}
+.job-box3{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background: rgba(7, 118, 238, 0.252);
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    top: -20px;
+    font-size: 13px;
+}
+
+.jobs-box2{
+    position: relative;
+    top: -380px;
+    left: 300px;
+    height: 130px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 40px 0 orange;
+}
+.jobs-box2 h3{
+    font-size: 17px;
+    text-align: center;
+    padding: 30px;
+    font-family: serif;
+}
+.jobs-box2 p1{
+    padding: 30px;
+    opacity: 0.5;
+}
+
+.announce2{
+    height: 110px;
+    width: 30%;
+    background: rgba(7, 118, 238, 0.252);
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgba(7, 119, 238, 0.829);
+    position: relative;
+    top: -520px;
+    left: 700px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 20px;
+    font-weight: bold;
+}
+#jobs span{
+    position: relative;
+    top: -520px;
+    left: 700px;
+}
+
+#payments{
+    position: relative;
+    padding: 100px 200px;
+    left: 40px;
+    top: -50px;
+}
+
+#payments p{
+    color: rgb(255, 94, 0);
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.payments-box{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background: rgba(20, 22, 24, 0.396);
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-family: serif;
+    position: relative;
+    top: -20px;
+    font-size: 15px;
+}
+.payments-box2{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background: rgba(7, 118, 238, 0.252);
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    font-family:serif;
+    position: relative;
+    top: -20px;
+    font-size: 13px;
+}
+.payments-mode{
+    height: 150px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+    top: -150px;
+    left: 250px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.payments-mode h3{
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 100;
+}
+.payments-mode span{
+    font-weight: bold;
+    font-size: 17px;
+}
+.earning h4{
+    position: relative;
+    top: -300px;
+    padding-left: 750px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.earning span{
+    position: relative;
+    top: -300px;
+    padding-left: 750px;
+}
